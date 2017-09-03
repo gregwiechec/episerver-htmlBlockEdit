@@ -30,7 +30,6 @@ namespace BlockEditing.Business
         }
     }
 
-    [ServiceConfiguration]
     public class CustomContentFragmentFactory : ContentFragmentFactory
     {
         private readonly IContentRepository _contentRepository;
